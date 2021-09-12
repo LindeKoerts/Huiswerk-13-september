@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="base/base-styles.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="base/base-styles.css">
     <title>Opdracht 1 - selectors</title>
+
 </head>
 <body>
     <div class="wrapper">
         <header>
             <nav>
-                <ul>
+                <ul class="header-links">
                     <li><a href="https://ciaotutti.nl/about">About</a></li>
                     <li><a href="https://ciaotutti.nl/articles">Articles</a></li>
                     <li><a href="https://ciaotutti.nl/places">Places</a></li>
@@ -19,9 +20,9 @@
             </nav>
         </header>
 
-        <img src="assets/header-image.jpg" alt="Tutti">
+        <img id="header" src="assets/header-image.jpg" alt="Tutti">
 
-        <main>
+        <main class="main.text">
             <h1>Latest Articles</h1>
             <article>
                 <h3>Quisque Tortor Lacus</h3>
@@ -46,13 +47,13 @@
                     <h3>Stay up to date of all the travels</h3>
                     <p>Vestibulum <a href="#">erat augue</a>, consequat non tellus ac, posuere scelerisque augue.</p>
                     <input type="text" placeholder="Enter email...">
-                    <input type="submit" value="Signup">
+                    <input class="signup-button" type="submit" value="Signup">
                 </div>
             </div>
         </main>
 
         <footer>
-            <span>&copy;2020 Ciao Tutti Blog</span>
+            <span class="footer-tutti-blog">&copy;2020 Ciao Tutti Blog</span>
         </footer>
     </div>
 </body>
